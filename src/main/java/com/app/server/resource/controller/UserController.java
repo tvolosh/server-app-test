@@ -52,8 +52,8 @@ public class UserController {
         hasil.put("saved role", roleDao.findAll());
 
 		User user = new User();
-        user.setUsername("test");
-        user.setPassword("test");
+        user.setUsername("UserTest");
+        user.setPassword("$2a$10$EtY4VMtfEh0x7DKWwuLzkOJDkfP2apv2ZvhMUvOVHSllaTwHPxhRi");
         user.setRole(role);
 
         userDao.save(user);
