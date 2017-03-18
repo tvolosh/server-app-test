@@ -1,0 +1,6 @@
+{
+  "name": "server-app",
+  "description": "securing REST API with OAuth2",
+  "image": "heroku/java",
+  "addons": [ "heroku-postgresql" ]
+}
